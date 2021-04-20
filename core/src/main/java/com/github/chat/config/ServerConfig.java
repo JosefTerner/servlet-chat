@@ -12,10 +12,8 @@ public class ServerConfig {
     public static Tomcat start() throws ServletException, LifecycleException {
         Tomcat tomcat = new Tomcat();
 
-        String webPort = System.getenv("PORT");
-        if (webPort == null || webPort.isEmpty()) {
-            webPort = "8080";
-        }
+        String webPort ="8080";
+
 
         tomcat.setPort(Integer.parseInt(webPort));
 

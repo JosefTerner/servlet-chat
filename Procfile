@@ -1,0 +1,1 @@
+web: java -jar core/target/embeddedTomcatSample.jar
