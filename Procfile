@@ -1,1 +1,1 @@
-web: java -jar core/target/embeddedTomcatSample.jar
+web: java -jar core/target/ChatApplication.jar
