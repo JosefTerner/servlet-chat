@@ -17,7 +17,7 @@ public class ServerConfig {
 
         tomcat.setPort(Integer.parseInt(webPort));
 
-        Context ctx = tomcat.addWebapp("/", new File(".").getAbsolutePath());
+        Context ctx = tomcat.addWebapp("", new File(".").getAbsolutePath());
         tomcat.addServlet("","UserHandler",HandlerConfig.usersHandler());
         ctx.addServletMappingDecoded("/*", "UserHandler");
         return tomcat;
