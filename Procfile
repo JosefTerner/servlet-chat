@@ -1,1 +1,1 @@
-web: java -jar core/target/ChatApplication.jar
+web: java -jar target/ChatApplication.jar
