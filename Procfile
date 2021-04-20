@@ -1,1 +1,1 @@
-web: java -jar core/target/core-1.0-SNAPSHOT.jar
+web: java $JAVA_OPTS -jar core/target/core-1.0-SNAPSHOT.jar
