@@ -84,7 +84,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>ChatApplication</mainClass>
+                            <mainClass>com.github.chat.ChatApplication</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

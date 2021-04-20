@@ -1,1 +1,1 @@
-web: java -jar target/ChatApplication.jar
+web: sh target/bin/webapp
