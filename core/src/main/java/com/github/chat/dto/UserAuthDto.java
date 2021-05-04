@@ -52,4 +52,11 @@ public class UserAuthDto {
         return Objects.hash(login, password);
     }
 
+    @Override
+    public String toString() {
+        return "UserAuthDto{" +
+                "login='" + login + '\'' +
+                ", password='" + password + '\'' +
+                '}';
+    }
 }

@@ -1,15 +1,9 @@
 package com.github.micro.orm;
 
-import org.junit.Test;
-
-import java.util.Collection;
-
-import static org.junit.Assert.*;
-
 public class CustomJdbcTemplateTest {
 
-    CustomJdbcTemplate jdbcTemplate;
-    CustomRowMapper rowMapper;
+//    CustomJdbcTemplate jdbcTemplate;
+//    CustomRowMapper rowMapper;
 //
 //    @Test
 //    public void findAll() {
